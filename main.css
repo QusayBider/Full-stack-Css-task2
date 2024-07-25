@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+h1{
+    font-family: Roboto;
+    font-weight: 900;
+    margin-left: 150px;
+}
+.main_class {
+  margin-left: 150px;
+  float: left;
+ 
+  .item {
+    width: 350px;
+    border: solid gray 2px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 15px;
+    margin-bottom: 10px;
+    img {
+      margin-left: 100px;
+    }
+    .information {
+        font-size: px;
+      color: gray;
+    }
+
+    .newprice {
+      color: rgb(6, 173, 6);
+      font-size: 24px;
+      font-weight: 600;
+      font-family: Roboto;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .oldprice {
+      display: inline-block;
+      color: red;
+      font-size: 20px;
+      text-decoration-line: line-through;
+      text-decoration-thickness: 1.5px;
+    }
+    .clearfix1 {
+      clear: both;
+    }
+
+    .button {
+      float: left;
+    }
+    .clearfix {
+      clear: both;
+    }
+    .button_cart {
+      background-color: rgba(0, 76, 254, 0.861);
+      width: 260px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+      border: 2px solid blue;
+    }
+    .button_cart i {
+      color: white;
+      display: inline-block;
+    }
+    .button_cart p {
+      font-weight: 600;
+      font-size: 18px;
+      display: inline-block;
+    }
+    .button_Favorite {
+      float: left;
+      margin-left: 7px;
+    }
+    .button_Favorite i {
+      background-color: white;
+      color: blue;
+      padding: 25px 20px;
+      border: blue 2px solid;
+    }
+  }
+}
