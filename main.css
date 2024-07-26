@@ -61,6 +61,7 @@ h1{
       display: inline-block;
     }
     .button_cart p {
+      color: black;
       font-weight: 600;
       font-size: 18px;
       display: inline-block;
